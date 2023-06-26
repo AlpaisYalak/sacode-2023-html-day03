@@ -4,5 +4,5 @@ Belajar CSS
 
 ## Link GitHub Pages
 
-silahkan kunjungi hasil desain melalui link beritkut :
+Silahkan Kunjungi Hasil Desain Melalui link beritkut :
 https://alpaisyalak.github.io/sacode-2023-html-day03/
