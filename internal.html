@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Inline CSS</title>
+
+    <style>
+        /* Membuat style menggunakan "Element Selector" */
+
+        header {
+            background-color: yellow;
+           
+        }
+
+        header, nav, section, footer{
+            padding: 30px;
+            border-width: 2px;
+            border-style: solid;
+        }
+
+        /* Membuat style menggunakan "id Selector" */
+
+        #navigation{
+            background-color: aqua;
+        }
+
+        #navigation ul{
+            border-style: dotted;
+            border-width: 5px;
+            padding: 0;
+            height: 60px;
+            
+
+        }
+        #navigation ul li{
+            list-style: none;
+            padding: 20px;
+            float: left;
+        }
+
+        /* Membuat style menggunakan "class Selector" */
+
+        .mainfooter{
+            background-color: black;
+            color: white;
+        }
+        .text-yellow{
+            color: yellow;
+        }
+    
+        .text-blue{
+            color: blue;
+        }
+    
+        .text-red{
+            color: red;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <!-- header start -->
+    <header id="header">
+
+        <h1>Internal css</h1>
+        <p>Belajar menerapkan css dengan cara Internal.</p>
+
+    </header>
+    <!-- header end -->
+
+    <!-- nav start -->
+
+    <nav id="navigation">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="inline.html">Inline</a>
+            </li>
+            <li>
+                <a href="internal.html">Internal</a>
+            </li>
+            <li>
+                <a href="external.html">External</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- nav end -->
+
+    <!-- section start -->
+    <section class="text-red">
+        
+        <h1>Belajar CSS</h1>
+
+        <p>Ada 3 cara menerapkan css, yaitu : <br>
+            1) Inline, <br>
+            2) Internal, <br>
+            3) External.</p>
+
+    </section>
+    <!-- section end -->
+
+    <!-- footer start -->
+    <footer class="mainFooter">
+        <p>
+            Copyright &copy; 2023 - Designed by <b class="text-yelow">Alpais Yalak</b>
+        </p>
+    </footer>
+    <!-- footer end -->
+
+</body>
+</html>
